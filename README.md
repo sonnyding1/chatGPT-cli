@@ -45,9 +45,3 @@ Enter anything to let ChatGPT answer. Enter `!Q` to quit, enter `!SAVE` to save 
   <img src="img/chatgpt_cli_demo_3.png">
   <br/>
 </p>
-
-<!-- [[/img/chatgpt_cli_demo_1.png]] -->
-
-<!-- [[/img/chatgpt_cli_demo_2.png]] -->
-
-<!-- [[/img/chatgpt_cli_demo_3.png]] -->
