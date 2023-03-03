@@ -31,8 +31,23 @@ gpt
 
 Enter anything to let ChatGPT answer. Enter `!Q` to quit, enter `!SAVE` to save this session's chat to `.\log\` folder. The save includes a raw version that can be used to save session, and a formatted version that is more readable. Enjoy!
 
-[[/img/chatgpt_cli_demo_1.png]]
+<p align="center">
+  <img src="img/chatgpt_cli_demo_1.png">
+  <br/>
+</p>
 
-[[/img/chatgpt_cli_demo_2.png]]
+<p align="center">
+  <img src="img/chatgpt_cli_demo_2.png">
+  <br/>
+</p>
 
-[[/img/chatgpt_cli_demo_3.png]]
+<p align="center">
+  <img src="img/chatgpt_cli_demo_3.png">
+  <br/>
+</p>
+
+<!-- [[/img/chatgpt_cli_demo_1.png]] -->
+
+<!-- [[/img/chatgpt_cli_demo_2.png]] -->
+
+<!-- [[/img/chatgpt_cli_demo_3.png]] -->
