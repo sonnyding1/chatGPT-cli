@@ -1,9 +1,12 @@
 import openai
 import config
 import datetime
+import os
 from colorama import Fore, Style, init
 
 def main():
+    PATH = os.path.dirname(os.path.abspath(__file__))
+    print(PATH)
     # colored text headers
     init()
     user_header = Style.BRIGHT + "\x1b[38;2;65;66;250m" + "user: " + Style.RESET_ALL
@@ -27,10 +30,10 @@ def main():
             timestamp = now.strftime("%Y-%m-%d-%H-%M-%S")
             try:
                 # save raw messages
-                with open(file=f'C:\code\chatGPT\log\{timestamp}.txt', mode='w', encoding='utf-8') as f:
+                with open(file=f'{PATH}\log\{timestamp}.txt', mode='w', encoding='utf-8') as f:
                     f.write(str(messages))
                 #save formatted messages
-                with open(file=f'C:\code\chatGPT\log\\f-{timestamp}.txt', mode='w', encoding='utf-8') as f:
+                with open(file=f'{PATH}\log\\f-{timestamp}.txt', mode='w', encoding='utf-8') as f:
                     for i in parsed_messages:
                         f.write(i)
             except IOError:
