@@ -6,7 +6,6 @@ from colorama import Fore, Style, init
 
 def main():
     PATH = os.path.dirname(os.path.abspath(__file__))
-    print(PATH)
     # colored text headers
     init()
     user_header = Style.BRIGHT + "\x1b[38;2;65;66;250m" + "user: " + Style.RESET_ALL
